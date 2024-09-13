@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 function insertDisqusButton() {
     let disqusButton = `
-        <div class="button-wrapper" id="disqus-button-wrapper" style="text-align: center; margin-top: 20px;">
+        <div class="button-wrapper" id="disqus-button-wrapper" style="text-align: center; background-color: rgba(6, 6, 4, 0.75);">
             <button id="toggleDisqus" class="disqus-button bg-color-2" style="border-radius: 12px; width: 300px; height: 40px; margin:10px;">
                 <strong>Chat Disqus</strong>
             </button>
