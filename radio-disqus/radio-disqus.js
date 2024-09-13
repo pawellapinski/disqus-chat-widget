@@ -7,13 +7,16 @@ $(document).ready(function() {
 
 function insertDisqusButton() {
     let disqusButton = `
+        
         <div class="button-wrapper" id="disqus-button-wrapper" style="text-align: center; background-color: rgba(6, 6, 4, 0.75);">
             <button id="toggleDisqus" class="disqus-button bg-color-2" style="border-radius: 12px; width: 300px; height: 40px; margin:10px;">
                 <strong>Chat Disqus</strong>
             </button>
         </div>
-        <div id="disqus-container" style="display: none; margin: 20px auto; max-width: calc(0% + 1180px);">
+        <div id="dq-header" style="background-color: rgba(6, 6, 4, 0.75);">
+        <div id="disqus-container" style="display: none; margin: auto; max-width: calc(0% + 1180px);">
             <div id="disqus_thread"></div>
+        </div>
         </div>
     `;
 
